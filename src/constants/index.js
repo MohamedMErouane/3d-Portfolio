@@ -1,3 +1,4 @@
+
 import {
   mobile,
   backend,
@@ -8,22 +9,27 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
   mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  marsamaroc,
+  stryve1,
+  stryve2,
+  Sma,
+  nestjs,
+  nextjs,
+  Portfolio,
+  Gira,
+  studywithme,
 } from "../assets";
+
+
 
 export const navLinks = [
   {
@@ -46,7 +52,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Gamer",
     icon: mobile,
   },
   {
@@ -80,18 +86,12 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+  
   {
     name: "MongoDB",
     icon: mongodb,
@@ -112,30 +112,39 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "nestjs",
+    icon: nestjs,
+  },
+  {
+    name: "nextjs",
+    icon: nextjs,
+  },
+
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Mobile Developer",
+    company_name: "Marsa Maroc",
+    icon: marsamaroc,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "juin 2023 - october 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining mobile applications using java and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Backend Developer",
+    company_name: "Flawco",
+    icon: Sma,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "october 2023 - Feb 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Laravel and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -143,12 +152,12 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Stryve solutions",
+    icon: stryve1,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2024 - juin 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js,Nest.js,Typescript,Prisma,Postegrsql and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -156,12 +165,12 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Stryve solutions",
+    icon: stryve2,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "juin 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Mern stack and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -172,42 +181,42 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product,but Med proved me wrong.",
+    name: "Mohamed laagudi",
+    designation: "Manager",
+    company: "Marsa maroc",
+    image: "src/assets/p1.jpeg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've never met a web developer who truly cares about their clients' success like Mohamed does.",
+    name: "Amine knitrate",
+    designation: "Manager",
+    company: "Stryve solutions",
+    image: "src/assets/p2.jpeg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "After Mohamed optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Habib Merouane",
+    designation: "CEO",
+    company: "FLAWCO",
+    image: "src/assets/p3.jpeg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "WorkSync Pro",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "WorkSync Pro is a web application for managing workforce tasks and employee schedules. It enables administrators to assign tasks, track employee work hours, and communicate in real-time. Employees can view their tasks and schedules, while administrators can monitor progress and adjust assignments as needed. With its intuitive interface and real-time updates, WorkSync Pro streamlines task management and promotes productivity",
     tags: [
       {
-        name: "react",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
@@ -215,13 +224,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Gira,
+    source_code_link: "https://github.com/MohamedMErouane/Stage2.git",
   },
   {
-    name: "Job IT",
+    name: "Study With Me",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "StudyHub Connect is a dynamic web platform that fosters collaborative studying among students worldwide. Through real-time conferencing, chat functionality, task management, and resource sharing, students can connect, learn, and support each other regardless of geographical boundaries. It enables the exchange of knowledge, ideas, and study materials, creating a vibrant global learning community.",
     tags: [
       {
         name: "react",
@@ -236,28 +245,28 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: studywithme,
+    source_code_link: "https://github.com/MohamedMErouane/Pfe-F-B.git",
   },
   {
-    name: "Trip Guide",
+    name: "Med Merouane Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Med Merouane Portfolio is a dynamic 3D portfolio platform that elegantly presents your skills as a full-stack developer. Through stunning visuals and interactive elements, it highlights your projects and proficiency in front-end and back-end technologies. With its immersive environment and responsive design, it sets you apart and captivates visitors with your technical expertise and creativity.. and it's decribing my skills as devlopeur with the whole experience",
     tags: [
       {
-        name: "nextjs",
+        name: "Reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Emailjs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Taliwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: Portfolio,
     source_code_link: "https://github.com/",
   },
 ];
